@@ -1,10 +1,8 @@
 
-import { theCanvas } from './canvas.js';
+import { theGame } from './game.js';
 
-let c = new theCanvas();
+let c = new theGame('#gameScreen');
 
 c.displayPlayer();
-
 c.displayCanvas();
-
-
+c.arenaSizeListener();
